@@ -1,0 +1,27 @@
+.navbar-lewagon {
+  justify-content: space-between;
+  opacity: 10;
+}
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  color: #000000 ;
+  // opacity: 9;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.nav-links a:hover {
+  opacity: 8;
+}
