@@ -22,20 +22,24 @@
             </h3>
     <div class="d-grid gap-5 d-sm-flex justify-content-sm-center">
       <div data-controller="toggle" >
-        <button data-action="click->toggle#fire" class="btn btn-outline-dark btn-lg px-4" type="button">Tech stack</button>
-        <button class="btn btn-outline-dark btn-lg px-4" type="button">Projects</button>
-        <button class="btn btn-outline-dark btn-lg px-4" type="button">Contact</button>
-        <div data-toggle-target="togglableElement" class="d-none">
+        <button data-action="click->toggle#stack" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Tech stack</button>
+        <button data-action="click->toggle#projects"class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Projects</button>
+        <button class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Contact</button>
+        <div data-toggle-target="togglableStack" class="d-none">
           <div class="tech-container my-5">
               <a href="https://skillicons.dev">
               <img src="https://skillicons.dev/icons?i=git,html,css,sass,bootstrap,js,ruby,rails,heroku,postgres,figma&theme=light" />
+            </div>
+        </div>
+         <div data-toggle-target="togglableProjects" class="d-none">
+          <div class="projects-container my-5">
+            <h1>PROJECTS</h1>
             </div>
         </div>
       </div>
     </div>
   </div>
   </div>
-
 </div>
 
 
