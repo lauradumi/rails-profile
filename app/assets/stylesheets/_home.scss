@@ -17,19 +17,11 @@
 //     background-position: 0% 50%;
 //   }
 // }
-.tech-container{
-  display: flex;
-  justify-content: center;
-  padding: 150px;
-  margin-bottom: 10px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
-.projects-container{
-  padding: 150px;
-  border-radius: 8px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-}
+// body {
+//   background-image: url("/images/Laura.jpg");
+// }
+
+
 
 .container{
   margin:auto;
@@ -43,29 +35,53 @@
   border-radius: 8px;
   // box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
   margin-top: 30px;
-  }
+}
 
-  .container h3 {
-    margin-top: 30px;
+.projects-container{
+  padding: 150px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
-    // width: 500px;
-  }
+.tech-container{
+  display: flex;
+  justify-content: center;
+  padding: 150px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
 
+.contact-container{
+  position: fixed;
+  top:-650px;
+  padding: 150px;
+  width: 1100px;
+  height: 550px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: relative;
+  z-index: 10;;
+}
 
-  .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
+.buttons{
+  margin-top: 70px;
+}
 
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: normal;
   }

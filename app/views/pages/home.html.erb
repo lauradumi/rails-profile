@@ -1,7 +1,5 @@
 <div class="container">
 
-
-
 <div class="px-4  text-center">
     <h1 class="poppins-regular">Hello 👋, I'm Laura.  </h1>
     <H2>Full stack web developper</H2>
@@ -20,20 +18,25 @@
                 extraordinary together.
       </p>
             </h3>
-    <div class="d-grid gap-5 d-sm-flex justify-content-sm-center">
+    <div class="buttons d-grid gap-5 d-sm-flex justify-content-sm-center">
       <div data-controller="toggle" >
         <button data-action="click->toggle#stack" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Tech stack</button>
-        <button data-action="click->toggle#projects"class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Projects</button>
-        <button class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Contact</button>
+        <button data-action="click->toggle#projects" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Projects</button>
+        <button data-action="click->toggle#contact" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Contact</button>
         <div data-toggle-target="togglableStack" class="d-none">
           <div class="tech-container my-5">
-              <a href="https://skillicons.dev">
+              <!--<a href="https://skillicons.dev">-->
               <img src="https://skillicons.dev/icons?i=git,html,css,sass,bootstrap,js,ruby,rails,heroku,postgres,figma&theme=light" />
             </div>
         </div>
          <div data-toggle-target="togglableProjects" class="d-none">
           <div class="projects-container my-5">
-            <h1>PROJECTS</h1>
+            <h1>Projects</h1>
+            </div>
+        </div>
+          <div data-toggle-target="togglableContact" class="d-none">
+          <div class="contact-container my-5">
+            <h1>Contact form</h1>
             </div>
         </div>
       </div>
