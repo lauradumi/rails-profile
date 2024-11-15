@@ -1,32 +1,179 @@
-<div class="container">
 
-<div class="px-4  text-center">
-    <h1 class="poppins-regular">Hello 👋, I'm Laura.  </h1>
-    <H2>Full stack web developper</H2>
-    <div class="col-lg-10 mx-auto">
-      <h3>
-      <p class="poppins-light mb-4">As a seasoned photographer with over a decade of experience in capturing
-            compelling visual stories, I am now channeling my creative energy into the
-            world of web development. My journey through photography has honed my eye
-            for detail, my appreciation for aesthetics, and my passion for
-            storytelling—skills that seamlessly translate into crafting engaging and
-            user-friendly websites.
-      </p>
-      <p class="poppins-light">I am excited to connect with fellow creatives and tech professionals,
-                collaborate on innovative projects, and continue growing in this ever-evolving
-                digital landscape. Let's connect and explore how we can create something
-                extraordinary together.
-      </p>
-            </h3>
-    <div class="buttons d-grid gap-5 d-sm-flex justify-content-sm-center">
+
+<body>
+
+  <!-- Navbar -->
+
+  <!-- Hero Section -->
+
+    <div class="container text-center">
+      <h1 class="display-4">Hello 👋, I'm Laura.</h1>
+      <p class="lead">Fullstack Web developper</p>
+    </div>
+
+
+  <!-- About Section -->
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <p class="lead">I'm a freelance web developer with experience in HTML, CSS, JavaScript,
+      and frameworks like Bootstrap and React. I enjoy creating visually appealing and user-friendly websites.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="bg-light py-5">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <h5>Frontend</h5>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Backend</h5>
+          <ul>
+            <li>Node.js</li>
+            <li>Express.js</li>
+            <li>MongoDB</li>
+            <li>MySQL</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Tools</h5>
+          <ul>
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>VS Code</li>
+            <li>Postman</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Other</h5>
+          <ul>
+            <li>Responsive Design</li>
+            <li>API Integration</li>
+            <li>RESTful Services</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="container my-5">
+    <h2>Projects</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="project1.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title">Project 1</h5>
+            <p class="card-text">Description of your project.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="project2.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title">Project 2</h5>
+            <p class="card-text">Description of your project.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="project3.jpg" class="card-img-top" alt="Project 3">
+          <div class="card-body">
+            <h5 class="card-title">Project 3</h5>
+            <p class="card-text">Description of your project.</p>
+            <a href="#" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2>Contact</h2>
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Your Name">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Your Email">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!--
+  <div class="container col-xxl-12">
+    <div class="d-flex justify-content-around">
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="assets/Laura.png" alt="" height="300px" class="rounded-circle">
+      </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hello 👋, I'm Laura.</h1>
+            <p class="lead"> Looking for a fresh perspective and a passionate web developer?
+              As a junior full stack developer, I'm eager to bring your ideas to life while continuously honing my skills.
+              Let’s collaborate and create something exciting together—reach out, and let’s start building!
+            </p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+-->
+
+<!--    <div class="buttons d-grid gap-5 d-sm-flex justify-content-sm-center">
       <div data-controller="toggle" >
         <button data-action="click->toggle#stack" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Tech stack</button>
         <button data-action="click->toggle#projects" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Projects</button>
         <button data-action="click->toggle#contact" class="btn btn-outline-dark btn-lg px-4 mx-2" type="button">Contact</button>
         <div data-toggle-target="togglableStack" class="d-none">
           <div class="tech-container my-5">
-              <!--<a href="https://skillicons.dev">-->
-              <img src="https://skillicons.dev/icons?i=git,html,css,sass,bootstrap,js,ruby,rails,heroku,postgres,figma&theme=light" />
+              <!--<a href="https://skillicons.dev">-->-->
+<!--              <img src="https://skillicons.dev/icons?i=git,html,css,sass,bootstrap,js,ruby,rails,heroku,postgres,figma&theme=light" />
             </div>
         </div>
          <div data-toggle-target="togglableProjects" class="d-none">
@@ -44,42 +191,3 @@
   </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-         <!-- <p>
-            With a solid foundation in HTML, CSS, JavaScript, and modern frameworks like
-            React, I am dedicated to building dynamic and visually appealing web
-            experiences. My unique background allows me to blend artistic vision
-            with technical expertise, ensuring that every project I undertake is
-            both beautiful and functional.
-          </p>-->
-
-
-
-        <!--As a seasoned photographer with over a decade of experience in capturing
-            compelling visual stories, I am now channeling my creative energy into the
-            world of web development. My journey through photography has honed my eye
-            for detail, my appreciation for aesthetics, and my passion for
-            storytelling—skills that seamlessly translate into crafting engaging and
-            user-friendly websites.
-
-
-
-            With a solid foundation in HTML, CSS, JavaScript, and modern frameworks like
-            React, I am dedicated to building dynamic and visually appealing web
-            experiences. My unique background allows me to blend artistic vision
-            with technical expertise, ensuring that every project I undertake is
-            both beautiful and functional.
-
-         I am excited to connect with fellow creatives and tech professionals,
-                collaborate on innovative projects, and continue growing in this ever-evolving
-                digital landscape. Let's connect and explore how we can create something
-                extraordinary together.
-            -->
